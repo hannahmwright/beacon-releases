@@ -3,6 +3,27 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Thu, 06 Aug 2026 17:45:10 -0400</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Makes finance navigation much faster by keeping live data subscriptions warm and reducing unnecessary whole-window redraws.
+- Keeps invoices, payments, payables, dashboards, companies, projects, contacts, and reports updated live when Beacon or QuickBooks data changes.
+- Automatically creates referral payables when qualifying client invoices are paid, with chronological Beacon payable numbers and clearer source details.
+- Creates QuickBooks bills through the shared Beacon connection, opens QuickBooks to unpaid bills, and improves bill status and error handling.
+- Simplifies the Payables workflow and standardizes payable and invoice-line tables with the rest of the app.
+- Includes the latest company, project, contact, user-permission, related-time-log, and QuickBooks customer-linking improvements.
+- Fixes an activity-update feedback loop and reduces unnecessary background work.
+
+After updating, Beacon will keep finance screens current automatically as shared data changes.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.4/Beacon-1.0.4.zip" length="19900879" type="application/octet-stream" sparkle:edSignature="ngCbUa12HX/kVBnT5nI8UCpp4DsGfaPGT9v2JaJq06C2i2ZQ1+8AMzlpW6/9YscwncaToyUnWDOrSvW3UG9xDg=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Thu, 06 Aug 2026 12:20:00 -0400</pubDate>
             <sparkle:version>4</sparkle:version>
