@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Beacon</title>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Thu, 06 Aug 2026 01:03:18 -0400</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Adds signed automatic updates, so Beacon only needs to be installed manually once.
+- Adds the finance-only AP/AR workspace with access to Cash Flow and Reports.
+- Applies role-based navigation and permissions for owner and AP/AR accounts.
+- Includes the latest company, contact, project, time-log, and QuickBooks workflow improvements.
+
+Beacon checks for updates every six hours and installs downloaded updates after the app quits.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.2/Beacon-1.0.2.zip" length="19929230" type="application/octet-stream" sparkle:edSignature="M4RAH/S2OVN8LguAwx4sfrE+FIqZXUTocwIqDymQ8oKDWTZcjHq103rYOi34JAEkabLtmj4vmcufy+AfzClzDA=="/>
+        </item>
+    </channel>
+</rss>
