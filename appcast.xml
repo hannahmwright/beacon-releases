@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Fri, 07 Aug 2026 00:17:11 -0400</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Beacon 1.0.6
+
+- Added a fully isolated Showcase Mode that uses Beacon's production interface with realistic fake data and blocks production data, QuickBooks, Quickbase, and other external connections.
+- Updated Day and Week calendars to prioritize billable work, show earned revenue, and keep personal-project time secondary.
+- Added billable hours and earned revenue to every day in the Week calendar while removing the project icons from day headings.
+- Renamed the Current Work cards to Today, This week, and This month for clearer language.
+- Hardened test launches so they cannot restore production authentication or connect to production services.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.6/Beacon-1.0.6.zip" length="20369831" type="application/octet-stream" sparkle:edSignature="vpTPcvbQZKuopBcHGECjKeg3/jznr3pv85jh+oJK9kLhne1eoMYilfEN/rOd9VAoq0kzwsnFusa/LOI7kqE5DA=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Thu, 06 Aug 2026 20:02:15 -0400</pubDate>
             <sparkle:version>6</sparkle:version>
