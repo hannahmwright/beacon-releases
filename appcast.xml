@@ -3,6 +3,27 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.7</title>
+            <pubDate>Sat, 08 Aug 2026 19:27:45 -0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Streamlined invoicing with a full-screen draft workflow, live time-log edits, and a clearer QuickBooks handoff with success confirmation.
+- Added subscription billing support, payment history, and revenue-share calculations.
+- Improved payable and QuickBooks bill readiness so approved obligations can move directly into payment.
+- Added automatic recovery when a session expires, longer-lived sign-ins, password reset by email, and Apple Passwords support.
+- Added the role-scoped client and subcontractor portal foundation.
+
+## Reliability
+
+- Improved live Convex synchronization and release signing for the new secure-login entitlement.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.7/Beacon-1.0.7.zip" length="20445473" type="application/octet-stream" sparkle:edSignature="6FUq+TwPbw64qkwe6GZPwaMTsypKijX4aadJHokS1JeXOfVwmKq4pNPJgBcHjHETAIFmG88vNGl187CTa+QoCQ=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <pubDate>Fri, 07 Aug 2026 00:17:11 -0400</pubDate>
             <sparkle:version>7</sparkle:version>
