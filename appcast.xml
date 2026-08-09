@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.9</title>
+            <pubDate>Sat, 08 Aug 2026 20:24:48 -0400</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Fixed
+
+- The Cash Flow dashboard now lists projected referral payments that are waiting for client invoices to be paid.
+- Each projected row shows the client, invoice, expected client-payment date, referrer, and projected payout, and opens the source invoice when selected.
+- The Waiting on clients total now includes those projected payouts without double-counting legacy blocked payables.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.9/Beacon-1.0.9.zip" length="20455234" type="application/octet-stream" sparkle:edSignature="UlJb8CJ21v3bCMvV0qh77e372wQ4hS6NtdF1DFRJvcKTabEHbMOIkZ7jCQAz3pUqzgzk2a984OrX4V+lxJ0oCg=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <pubDate>Sat, 08 Aug 2026 19:46:53 -0400</pubDate>
             <sparkle:version>9</sparkle:version>
