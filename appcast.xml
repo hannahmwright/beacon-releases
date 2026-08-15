@@ -3,6 +3,24 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.16</title>
+            <pubDate>Sat, 15 Aug 2026 18:13:24 -0400</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Added resource-payment email statements with a complete line-item preview directly from paid payables.
+- Added a guarded manual send workflow with recipient routing and delivery status visible before sending.
+- Resource-payment emails launch in Hannah-only test mode; automatic sending remains off.
+- Corrected imported paystub numbers, invoice labels, amounts, totals, and Quickbase list formatting in statement previews.
+- Referral email status now reflects the current delivery mode.
+- Refreshed Dashboard backend compatibility for the app’s date-range request.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.16/Beacon-1.0.16.zip" length="20885414" type="application/octet-stream" sparkle:edSignature="hRtCLMQxaPEasdkeju+KU3kgCkkcXerLYBptewfdbZXLhnY9buHVEsw03QApQ+04ysKh93FZR6blb8FYvKUcBw=="/>
+        </item>
+        <item>
             <title>1.0.15</title>
             <pubDate>Sat, 15 Aug 2026 17:19:34 -0400</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -157,23 +175,6 @@ Referral-payment emails remain manual while delivery is in testing.
 - Improved live Convex synchronization and release signing for the new secure-login entitlement.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.7/Beacon-1.0.7.zip" length="20445473" type="application/octet-stream" sparkle:edSignature="6FUq+TwPbw64qkwe6GZPwaMTsypKijX4aadJHokS1JeXOfVwmKq4pNPJgBcHjHETAIFmG88vNGl187CTa+QoCQ=="/>
-        </item>
-        <item>
-            <title>1.0.6</title>
-            <pubDate>Fri, 07 Aug 2026 00:17:11 -0400</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Beacon 1.0.6
-
-- Added a fully isolated Showcase Mode that uses Beacon's production interface with realistic fake data and blocks production data, QuickBooks, Quickbase, and other external connections.
-- Updated Day and Week calendars to prioritize billable work, show earned revenue, and keep personal-project time secondary.
-- Added billable hours and earned revenue to every day in the Week calendar while removing the project icons from day headings.
-- Renamed the Current Work cards to Today, This week, and This month for clearer language.
-- Hardened test launches so they cannot restore production authentication or connect to production services.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.6/Beacon-1.0.6.zip" length="20369831" type="application/octet-stream" sparkle:edSignature="vpTPcvbQZKuopBcHGECjKeg3/jznr3pv85jh+oJK9kLhne1eoMYilfEN/rOd9VAoq0kzwsnFusa/LOI7kqE5DA=="/>
         </item>
     </channel>
 </rss>
