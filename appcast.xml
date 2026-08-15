@@ -3,6 +3,27 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.11</title>
+            <pubDate>Sat, 15 Aug 2026 15:55:11 -0400</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Restores complete invoice detail rows in referral-payment email previews for imported payables, including Sharon’s payables #321 and #331.
+- Adds a clear **Preview & Send** workflow with a confirmation step directly on the payable form.
+- Keeps referral email testing locked to `h.wright@vervetechgroup.com`; neither Sharon nor company-copy recipients receive test emails.
+- Adds **Check QuickBooks** on scheduled payables so Beacon can reread the linked Bill and apply a verified BillPayment.
+
+## Fixes
+
+- Correctly marks a scheduled Beacon payable as paid when its exactly linked QuickBooks Bill has a zero balance and a verified linked BillPayment.
+- Keeps automatic referral-email delivery disabled so status synchronization never sends an email unexpectedly.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.11/Beacon-1.0.11.zip" length="20796027" type="application/octet-stream" sparkle:edSignature="zGIeaivXgivEvWpIehy8bJWzpaP8omW303+JnMfHfyj1MHM/nY4hpk1GAx7/kebxvwfbRK8gHFoDVAMXg/6rBw=="/>
+        </item>
+        <item>
             <title>1.0.10</title>
             <pubDate>Sat, 15 Aug 2026 15:13:07 -0400</pubDate>
             <sparkle:version>11</sparkle:version>
