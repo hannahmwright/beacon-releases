@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.13</title>
+            <pubDate>Sat, 15 Aug 2026 16:47:23 -0400</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Payee photos on Payables
+
+- Shows each person's uploaded profile photo in Payables and Paid History.
+- Keeps the person's photo visible even when their QuickBooks payment recipient is a company.
+- Falls back to the live Contacts directory when a payable's cached photo field is missing.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.13/Beacon-1.0.13.zip" length="20810321" type="application/octet-stream" sparkle:edSignature="DS0TbNe4daQreagmYBwuuuLNXc3sdJ7Drj3AAGJ5JHZ0HOK/uR8p5ESTafhQzG/36MC6lS2NHvPCYLbVNAP0BA=="/>
+        </item>
+        <item>
             <title>1.0.12</title>
             <pubDate>Sat, 15 Aug 2026 16:18:26 -0400</pubDate>
             <sparkle:version>13</sparkle:version>
@@ -167,23 +182,6 @@ Referral-payment emails remain manual while delivery is in testing.
 After updating, Beacon will keep finance screens current automatically as shared data changes.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.4/Beacon-1.0.4.zip" length="19900879" type="application/octet-stream" sparkle:edSignature="ngCbUa12HX/kVBnT5nI8UCpp4DsGfaPGT9v2JaJq06C2i2ZQ1+8AMzlpW6/9YscwncaToyUnWDOrSvW3UG9xDg=="/>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Thu, 06 Aug 2026 12:20:00 -0400</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Fixes daily analysis drafts that contain a malformed client or project ID when the displayed client and project names uniquely identify the correct Beacon records.
-- Shows a warning whenever Beacon safely corrects those IDs before presenting the recommendation.
-- Continues to reject ambiguous matches or IDs that point to a different real record.
-
-After updating, choose **Analyze day** again for any day that previously showed the catalog-validation error.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.3/Beacon-1.0.3.zip" length="19930394" type="application/octet-stream" sparkle:edSignature="eI/e5IWbmYaQx9F9y5EXdMaJk1mh66z+sEQzJkVlO1P3jrdqpDvMhF8oMMyNY8r5gaG4OT0IM7blo4TmFCllDg=="/>
         </item>
     </channel>
 </rss>
