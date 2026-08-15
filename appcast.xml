@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.14</title>
+            <pubDate>Sat, 15 Aug 2026 17:04:19 -0400</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Makes referral-payment email headers reliable across mail clients with a lighter, professional statement design.
+- Returns every sidebar section to its usual landing view when its sidebar tab is clicked.
+- Returns Dashboard to My Dashboard, Time to Day, and Payables to Open.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.14/Beacon-1.0.14.zip" length="20813674" type="application/octet-stream" sparkle:edSignature="HTzurYRixyzPvGkglWHPS0DpADafoSzrleoc6YtMTJPUJMsq1Qrbc9ttI9ErhIBbDHsxza/X1I6UmUtwF15UBQ=="/>
+        </item>
+        <item>
             <title>1.0.13</title>
             <pubDate>Sat, 15 Aug 2026 16:47:23 -0400</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -161,27 +176,6 @@ Referral-payment emails remain manual while delivery is in testing.
 - Improved live dashboard/report refresh behavior and removed obsolete manual refresh and Quickbase-authority messaging.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.5/Beacon-1.0.5.zip" length="20117730" type="application/octet-stream" sparkle:edSignature="98knI2dZgSPI8hvuFZSX6qvig+AGsNJzKU8TJO4q6LnZPCqlTfbmMVoHE7RgKBE7aY9snpQL0GuCYNdEUkjQAw=="/>
-        </item>
-        <item>
-            <title>1.0.4</title>
-            <pubDate>Thu, 06 Aug 2026 17:45:10 -0400</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Makes finance navigation much faster by keeping live data subscriptions warm and reducing unnecessary whole-window redraws.
-- Keeps invoices, payments, payables, dashboards, companies, projects, contacts, and reports updated live when Beacon or QuickBooks data changes.
-- Automatically creates referral payables when qualifying client invoices are paid, with chronological Beacon payable numbers and clearer source details.
-- Creates QuickBooks bills through the shared Beacon connection, opens QuickBooks to unpaid bills, and improves bill status and error handling.
-- Simplifies the Payables workflow and standardizes payable and invoice-line tables with the rest of the app.
-- Includes the latest company, project, contact, user-permission, related-time-log, and QuickBooks customer-linking improvements.
-- Fixes an activity-update feedback loop and reduces unnecessary background work.
-
-After updating, Beacon will keep finance screens current automatically as shared data changes.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.4/Beacon-1.0.4.zip" length="19900879" type="application/octet-stream" sparkle:edSignature="ngCbUa12HX/kVBnT5nI8UCpp4DsGfaPGT9v2JaJq06C2i2ZQ1+8AMzlpW6/9YscwncaToyUnWDOrSvW3UG9xDg=="/>
         </item>
     </channel>
 </rss>
