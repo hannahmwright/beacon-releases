@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.15</title>
+            <pubDate>Sat, 15 Aug 2026 17:19:34 -0400</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Allows intentional referral-payment email resends while continuing to protect automatic delivery from duplicates.
+- Adds fast shared memory and disk caching for contact avatar photos throughout Beacon.
+- Shows clearer resend wording and cleaner server error messages in the referral-email preview.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.15/Beacon-1.0.15.zip" length="20830771" type="application/octet-stream" sparkle:edSignature="rm9XXxqWlgIc34HUwJJm2WcCuv4nwNHxk8sJExzNFbgewUearZ3HMGSAI8K0wlnIc6K0P+/aFz3TvEDqcaPhBg=="/>
+        </item>
+        <item>
             <title>1.0.14</title>
             <pubDate>Sat, 15 Aug 2026 17:04:19 -0400</pubDate>
             <sparkle:version>15</sparkle:version>
@@ -159,23 +174,6 @@ Referral-payment emails remain manual while delivery is in testing.
 - Hardened test launches so they cannot restore production authentication or connect to production services.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.6/Beacon-1.0.6.zip" length="20369831" type="application/octet-stream" sparkle:edSignature="vpTPcvbQZKuopBcHGECjKeg3/jznr3pv85jh+oJK9kLhne1eoMYilfEN/rOd9VAoq0kzwsnFusa/LOI7kqE5DA=="/>
-        </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Thu, 06 Aug 2026 20:02:15 -0400</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Beacon 1.0.5
-
-- Added a dedicated Subscriptions workspace with full record editing, payment history, and revenue-share reporting.
-- Added person-scoped subscription access for Developer users while keeping unrelated subscriptions hidden.
-- Added interactive dashboard and finance-report drill-downs, sortable report tables, and direct links to related records.
-- Standardized time-log reporting across company and dashboard views, including daily resource-grouped detail.
-- Improved live dashboard/report refresh behavior and removed obsolete manual refresh and Quickbase-authority messaging.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.5/Beacon-1.0.5.zip" length="20117730" type="application/octet-stream" sparkle:edSignature="98knI2dZgSPI8hvuFZSX6qvig+AGsNJzKU8TJO4q6LnZPCqlTfbmMVoHE7RgKBE7aY9snpQL0GuCYNdEUkjQAw=="/>
         </item>
     </channel>
 </rss>
