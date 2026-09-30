@@ -3,6 +3,22 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.34</title>
+            <pubDate>Wed, 30 Sep 2026 14:36:38 -0400</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- A fresh look: a navy sidebar and goal rail, a calm sky-blue accent, flat surfaces with no heavy gradients, and the Manrope typeface throughout.
+- The dashboard greets you and highlights “Earned this month” in a navy tile. Tables and the Day timeline show each client’s color and emoji.
+- The collapsed goal rail now shows a pace-colored goal ring, earned this month, today’s hours, the running timer, and proposals waiting for review.
+- Invoice PDFs use Manrope with proper bold headings and totals, and full dates no longer get cut off.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.34/Beacon-1.0.34.zip" length="21707603" type="application/octet-stream" sparkle:edSignature="oDT2EFBVbvHCvk/wEJQKR73X5aeHsi+d3OFC3SXSqyaW06LzppGrLs2fQVvYZIBaXuoN6cqD7MtiOzVEGnAdBw=="/>
+        </item>
+        <item>
             <title>1.0.33</title>
             <pubDate>Wed, 30 Sep 2026 12:42:35 -0400</pubDate>
             <sparkle:version>34</sparkle:version>
@@ -160,27 +176,6 @@ Referral-payment emails remain manual while delivery is in testing.
 - Keeps automatic referral-email delivery disabled so status synchronization never sends an email unexpectedly.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.11/Beacon-1.0.11.zip" length="20796027" type="application/octet-stream" sparkle:edSignature="zGIeaivXgivEvWpIehy8bJWzpaP8omW303+JnMfHfyj1MHM/nY4hpk1GAx7/kebxvwfbRK8gHFoDVAMXg/6rBw=="/>
-        </item>
-        <item>
-            <title>1.0.10</title>
-            <pubDate>Sat, 15 Aug 2026 15:13:07 -0400</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Adds referral-payment email previews directly in Beacon, with a cleaner payment-detail layout and a guarded delivery workflow.
-- Keeps referral email delivery in Hannah-only test mode while the workflow is reviewed.
-- Adds optional contact profile photos and uses them in contact and payable views, falling back to initials when no photo is available.
-- Cleans up payable reporting, including removing the no-longer-relevant Due in column from paid payables.
-- Streamlines account settings with side-by-side name fields, modal password workflows, and dashboard routing after sign-in.
-
-## Reliability
-
-- Improves billing-rule parity, local finance caching, system-health visibility, and client-app time-log delivery safeguards.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.10/Beacon-1.0.10.zip" length="20783141" type="application/octet-stream" sparkle:edSignature="KvAyi637IMUfzoei6cfvl0ZMhnRVooToCD53gKVmaUlSKZJn3pJx6sqimwg0DDwZllHqph6YqBErU/esr3K5Bg=="/>
         </item>
     </channel>
 </rss>
