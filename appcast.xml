@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.33</title>
+            <pubDate>Wed, 30 Sep 2026 12:42:35 -0400</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Company nicknames: give companies a short name that’s used around Beacon. Invoices, PDFs, QuickBooks, and anything sent to clients still use the full name.
+- Company rounding now drives billed time. Every company is set to round up to 15 minutes, matching how time was already billed; change a company’s rounding on its record, or override it on a work profile.
+- Goal cards turn green, yellow, or red based on pace, with clearer wording once a goal is met.
+- Fixes the empty panel that appeared under search fields and dropdowns.
+- Fixes the main content overlapping the sidebar and goal rail, and gives sidebar labels room to fit.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.33/Beacon-1.0.33.zip" length="21509267" type="application/octet-stream" sparkle:edSignature="Po6yGx23+ehFUPPDAGvrNpIburplReT0XJuQY2XlfIx96Go6ao7G8Ik/1DAWj3Hs609g4rNWAvU0UYkL3jsdBQ=="/>
+        </item>
+        <item>
             <title>1.0.32</title>
             <pubDate>Wed, 30 Sep 2026 12:08:51 -0400</pubDate>
             <sparkle:version>33</sparkle:version>
@@ -164,21 +181,6 @@ Referral-payment emails remain manual while delivery is in testing.
 - Improves billing-rule parity, local finance caching, system-health visibility, and client-app time-log delivery safeguards.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.10/Beacon-1.0.10.zip" length="20783141" type="application/octet-stream" sparkle:edSignature="KvAyi637IMUfzoei6cfvl0ZMhnRVooToCD53gKVmaUlSKZJn3pJx6sqimwg0DDwZllHqph6YqBErU/esr3K5Bg=="/>
-        </item>
-        <item>
-            <title>1.0.9</title>
-            <pubDate>Sat, 08 Aug 2026 20:24:48 -0400</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Fixed
-
-- The Cash Flow dashboard now lists projected referral payments that are waiting for client invoices to be paid.
-- Each projected row shows the client, invoice, expected client-payment date, referrer, and projected payout, and opens the source invoice when selected.
-- The Waiting on clients total now includes those projected payouts without double-counting legacy blocked payables.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.9/Beacon-1.0.9.zip" length="20455234" type="application/octet-stream" sparkle:edSignature="UlJb8CJ21v3bCMvV0qh77e372wQ4hS6NtdF1DFRJvcKTabEHbMOIkZ7jCQAz3pUqzgzk2a984OrX4V+lxJ0oCg=="/>
         </item>
     </channel>
 </rss>
