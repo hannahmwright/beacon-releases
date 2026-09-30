@@ -3,6 +3,22 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.35</title>
+            <pubDate>Wed, 30 Sep 2026 15:54:58 -0400</pubDate>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Goal tracking now lives at the bottom of the sidebar, and the right rail is gone, so tables and the timeline get the full window width.
+- Users and Settings moved into the menu on your name, making room for the full goal card on laptop screens.
+- Today’s hours and waiting proposals show next to Time, and a running timer gets its own row with a Stop button.
+- The Cash Flow “Waiting on client payment” table shows each payee’s avatar.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.35/Beacon-1.0.35.zip" length="21699771" type="application/octet-stream" sparkle:edSignature="gqLiLXRZwUX2i0tbEy/l3D8547dm6ZVBHHZ6ZIu8n7uawbqdWEnZAb1EuSYd3A8C5JHOdHzHZTJYUZP/KXzZAg=="/>
+        </item>
+        <item>
             <title>1.0.34</title>
             <pubDate>Wed, 30 Sep 2026 14:36:38 -0400</pubDate>
             <sparkle:version>35</sparkle:version>
@@ -155,27 +171,6 @@ After updating, the first launch tidies up the local database in the background;
 Referral-payment emails remain manual while delivery is in testing.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.12/Beacon-1.0.12.zip" length="20809715" type="application/octet-stream" sparkle:edSignature="lD6kePITsY4vwp40SeAbwQm6QOidYhwee2JNMv5+5crcxwvk9F2N2ghyiyS7Iyx+sDWXAGfMZ7kaNTy3Exn5Bw=="/>
-        </item>
-        <item>
-            <title>1.0.11</title>
-            <pubDate>Sat, 15 Aug 2026 15:55:11 -0400</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Restores complete invoice detail rows in referral-payment email previews for imported payables, including Sharon’s payables #321 and #331.
-- Adds a clear **Preview & Send** workflow with a confirmation step directly on the payable form.
-- Keeps referral email testing locked to `h.wright@vervetechgroup.com`; neither Sharon nor company-copy recipients receive test emails.
-- Adds **Check QuickBooks** on scheduled payables so Beacon can reread the linked Bill and apply a verified BillPayment.
-
-## Fixes
-
-- Correctly marks a scheduled Beacon payable as paid when its exactly linked QuickBooks Bill has a zero balance and a verified linked BillPayment.
-- Keeps automatic referral-email delivery disabled so status synchronization never sends an email unexpectedly.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.11/Beacon-1.0.11.zip" length="20796027" type="application/octet-stream" sparkle:edSignature="zGIeaivXgivEvWpIehy8bJWzpaP8omW303+JnMfHfyj1MHM/nY4hpk1GAx7/kebxvwfbRK8gHFoDVAMXg/6rBw=="/>
         </item>
     </channel>
 </rss>
