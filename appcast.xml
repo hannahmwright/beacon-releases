@@ -3,6 +3,19 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.36</title>
+            <pubDate>Wed, 30 Sep 2026 16:06:27 -0400</pubDate>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Payee photos now appear in the Cash Flow and Payables “Waiting on client payment” tables instead of initials.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.36/Beacon-1.0.36.zip" length="21701078" type="application/octet-stream" sparkle:edSignature="4dijWe6e/uA3wwHwD5Hx5aJoqAhQKrnFetKKmXLvBFDCGXranp5hkMXzeEmk3WUalKX+DHf6F+dU5hLtc2sPAQ=="/>
+        </item>
+        <item>
             <title>1.0.35</title>
             <pubDate>Wed, 30 Sep 2026 15:54:58 -0400</pubDate>
             <sparkle:version>36</sparkle:version>
@@ -152,25 +165,6 @@ After updating, the first launch tidies up the local database in the background;
 - Falls back to the live Contacts directory when a payable's cached photo field is missing.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.13/Beacon-1.0.13.zip" length="20810321" type="application/octet-stream" sparkle:edSignature="DS0TbNe4daQreagmYBwuuuLNXc3sdJ7Drj3AAGJ5JHZ0HOK/uR8p5ESTafhQzG/36MC6lS2NHvPCYLbVNAP0BA=="/>
-        </item>
-        <item>
-            <title>1.0.12</title>
-            <pubDate>Sat, 15 Aug 2026 16:18:26 -0400</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Makes column resizing across Beacon’s embedded reports feel smooth and stable.
-- Uses wider windows to give report columns more comfortable spacing and reduce unnecessary wrapping.
-- Shows Date Paid in Paid History and sorts the newest payments first.
-- Automatically receives QuickBooks Bill payment updates through webhooks, with a read-only recovery check every 15 minutes.
-- Keeps a visible “Check now” fallback on scheduled QuickBooks-linked payables.
-
-Referral-payment emails remain manual while delivery is in testing.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.12/Beacon-1.0.12.zip" length="20809715" type="application/octet-stream" sparkle:edSignature="lD6kePITsY4vwp40SeAbwQm6QOidYhwee2JNMv5+5crcxwvk9F2N2ghyiyS7Iyx+sDWXAGfMZ7kaNTy3Exn5Bw=="/>
         </item>
     </channel>
 </rss>
