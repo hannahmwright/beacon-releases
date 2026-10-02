@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.39</title>
+            <pubDate>Fri, 02 Oct 2026 15:53:53 -0400</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Every report and table fills the window and lets you resize columns by dragging the header edges.
+- Right-click any column header to sort or group by that column, low to high or high to low. Each report remembers your widths, sort, and grouping.
+- A company’s Invoices tab is grouped by year and shows Days to pay — how long paid invoices took, or how long open ones have been waiting.
+- Beacon opens filling your screen, and headers and toolbars adapt when the window is narrower instead of cutting off buttons.
+- Invoice composer descriptions grow to show the full text.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.39/Beacon-1.0.39.zip" length="21728593" type="application/octet-stream" sparkle:edSignature="+ACMC0g60PuqQz//V5uqI8pGPt6GxrXpX7FuD6+zThDnTS9ACW8hGleeH+xFxe+utxG+c5aD8U63VF3XK1bEDw=="/>
+        </item>
+        <item>
             <title>1.0.38</title>
             <pubDate>Fri, 02 Oct 2026 14:34:23 -0400</pubDate>
             <sparkle:version>39</sparkle:version>
@@ -146,21 +163,6 @@ After updating, the first launch tidies up the local database in the background;
 - Refreshed Dashboard backend compatibility for the app’s date-range request.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.16/Beacon-1.0.16.zip" length="20885414" type="application/octet-stream" sparkle:edSignature="hRtCLMQxaPEasdkeju+KU3kgCkkcXerLYBptewfdbZXLhnY9buHVEsw03QApQ+04ysKh93FZR6blb8FYvKUcBw=="/>
-        </item>
-        <item>
-            <title>1.0.15</title>
-            <pubDate>Sat, 15 Aug 2026 17:19:34 -0400</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Allows intentional referral-payment email resends while continuing to protect automatic delivery from duplicates.
-- Adds fast shared memory and disk caching for contact avatar photos throughout Beacon.
-- Shows clearer resend wording and cleaner server error messages in the referral-email preview.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.15/Beacon-1.0.15.zip" length="20830771" type="application/octet-stream" sparkle:edSignature="rm9XXxqWlgIc34HUwJJm2WcCuv4nwNHxk8sJExzNFbgewUearZ3HMGSAI8K0wlnIc6K0P+/aFz3TvEDqcaPhBg=="/>
         </item>
     </channel>
 </rss>
