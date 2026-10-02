@@ -3,6 +3,19 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.38</title>
+            <pubDate>Fri, 02 Oct 2026 14:34:23 -0400</pubDate>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- New invoices show a checkbox on every line. Uncheck lines to hold them for a later invoice; their time logs stay unbilled and appear on the next invoice for that client.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.38/Beacon-1.0.38.zip" length="21723891" type="application/octet-stream" sparkle:edSignature="K0do2EJH0kFh12zaSFSx4Itms+SrMGzRA59OPCactdKR3xO5nWN8QWCjzKOa6P4/etEzKa6Vgs1+6rR17iRYBg=="/>
+        </item>
+        <item>
             <title>1.0.37</title>
             <pubDate>Fri, 02 Oct 2026 13:34:40 -0400</pubDate>
             <sparkle:version>38</sparkle:version>
@@ -148,21 +161,6 @@ After updating, the first launch tidies up the local database in the background;
 - Shows clearer resend wording and cleaner server error messages in the referral-email preview.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.15/Beacon-1.0.15.zip" length="20830771" type="application/octet-stream" sparkle:edSignature="rm9XXxqWlgIc34HUwJJm2WcCuv4nwNHxk8sJExzNFbgewUearZ3HMGSAI8K0wlnIc6K0P+/aFz3TvEDqcaPhBg=="/>
-        </item>
-        <item>
-            <title>1.0.14</title>
-            <pubDate>Sat, 15 Aug 2026 17:04:19 -0400</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Makes referral-payment email headers reliable across mail clients with a lighter, professional statement design.
-- Returns every sidebar section to its usual landing view when its sidebar tab is clicked.
-- Returns Dashboard to My Dashboard, Time to Day, and Payables to Open.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.14/Beacon-1.0.14.zip" length="20813674" type="application/octet-stream" sparkle:edSignature="HTzurYRixyzPvGkglWHPS0DpADafoSzrleoc6YtMTJPUJMsq1Qrbc9ttI9ErhIBbDHsxza/X1I6UmUtwF15UBQ=="/>
         </item>
     </channel>
 </rss>
