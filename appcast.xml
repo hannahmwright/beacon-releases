@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.42</title>
+            <pubDate>Fri, 02 Oct 2026 18:41:28 -0400</pubDate>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>1.0.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Automatic invoice drafts: turn on “Create invoice drafts automatically” on a company and Beacon drafts its invoice on schedule (the 1st for monthly companies, Mondays for weekly). Drafts wait for your review — nothing is sent automatically.
+- Remove individual lines from a draft invoice; their time logs go back to unbilled.
+- Subscriptions paid by automatic transfer: each month’s entry appears on the 1st with a Confirm received button, and you can keep a subscription out of your monthly goal.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.42/Beacon-1.0.42.zip" length="21809398" type="application/octet-stream" sparkle:edSignature="vOfd/Rem7KcH/Wpk9DPFQv9nPU611uZfbAzuH0YawRGi3gt6MM5b2KvttvSoMSXv5aTDQy5cp5aBUIVGmN8JBA=="/>
+        </item>
+        <item>
             <title>1.0.41</title>
             <pubDate>Fri, 02 Oct 2026 17:34:29 -0400</pubDate>
             <sparkle:version>42</sparkle:version>
@@ -135,24 +150,6 @@
 - Fixes the main content overlapping the sidebar and goal rail, and gives sidebar labels room to fit.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.33/Beacon-1.0.33.zip" length="21509267" type="application/octet-stream" sparkle:edSignature="Po6yGx23+ehFUPPDAGvrNpIburplReT0XJuQY2XlfIx96Go6ao7G8Ik/1DAWj3Hs609g4rNWAvU0UYkL3jsdBQ=="/>
-        </item>
-        <item>
-            <title>1.0.32</title>
-            <pubDate>Wed, 30 Sep 2026 12:08:51 -0400</pubDate>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- New menu bar panel: goal progress and pace, today and this week’s hours, the running timer, and proposals waiting for review. The running time also shows in the menu bar.
-- Faster, calmer daily review: pending proposals come first as compact rows with Approve all and Undo, and Activity is now an Evidence toggle inside Day.
-- Add and edit any record from the app: companies (with billing terms and payment frequency), projects, resource end dates, rate periods, contact emails, subscriptions, referral agreements, bucket top-ups, manual payables, and payee and partial invoice payments.
-- Finance screens share one set of statuses, money and date formats, and tables with totals. Alex gets his own sidebar, reports, and faster pay runs with bulk statements.
-- Records warn before discarding unsaved changes, including when you quit or close the window.
-- Fixes invoices showing the wrong Bill to, unreadable PDFs in dark mode, billed logs moving when dragged, and QuickBooks bills losing their due dates.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.32/Beacon-1.0.32.zip" length="21492194" type="application/octet-stream" sparkle:edSignature="YF+P4GjsBo6SQ94/Edr3YQMOl1R0nZ0cS7i0440S/lSqpTN8eFVEaNwjctm+MmLw3Nnk/pQdx9BzTPfE93SVAg=="/>
         </item>
     </channel>
 </rss>
