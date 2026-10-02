@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.41</title>
+            <pubDate>Fri, 02 Oct 2026 17:34:29 -0400</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>1.0.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Reports › Billing history stays up to date as you invoice and get paid, and each invoice counts toward its “Counts toward” month (or invoice date).
+- The goal month picker is easy to read.
+- Updates install the newest version on the first try.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.41/Beacon-1.0.41.zip" length="21745070" type="application/octet-stream" sparkle:edSignature="T0b02l/XdJC494T3nWRp/XNtDoxT/3UTobocgTqZTeVamuVWYuR4RD87hxatVNAaTVEYnzh9YoTHzQ+LVeS2BQ=="/>
+        </item>
+        <item>
             <title>1.0.40</title>
             <pubDate>Fri, 02 Oct 2026 16:52:41 -0400</pubDate>
             <sparkle:version>41</sparkle:version>
@@ -138,27 +153,6 @@
 - Fixes invoices showing the wrong Bill to, unreadable PDFs in dark mode, billed logs moving when dragged, and QuickBooks bills losing their due dates.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.32/Beacon-1.0.32.zip" length="21492194" type="application/octet-stream" sparkle:edSignature="YF+P4GjsBo6SQ94/Edr3YQMOl1R0nZ0cS7i0440S/lSqpTN8eFVEaNwjctm+MmLw3Nnk/pQdx9BzTPfE93SVAg=="/>
-        </item>
-        <item>
-            <title>1.0.31</title>
-            <pubDate>Wed, 30 Sep 2026 01:27:13 -0400</pubDate>
-            <sparkle:version>32</sparkle:version>
-            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Makes Beacon noticeably more responsive: activity tracking now runs in the background, saves at most once a minute, and no longer redraws every screen every few seconds.
-- Speeds up History, Today, and finance screens by caching expensive work and keeping hidden tabs from redrawing.
-- Syncs time logs incrementally and only for your own work, so Beacon uses far less cloud data and stays quicker.
-- Finance screens share live data while visible and disconnect when hidden, keeping your cached results and form state.
-- Fixes time-log sync issues that could stop syncing, skip logs created elsewhere, or drop an edit made during a sync.
-- Keeps client-app deliveries accurate: logs re-send when a project mapping changes, hours match billed minutes, and records left behind by deleted logs appear in a cleanup list.
-- Keeps the local database small by pruning old change history and evidence older than six months.
-
-After updating, the first launch tidies up the local database in the background; the next launch may take a few extra seconds while it compacts.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.31/Beacon-1.0.31.zip" length="21463453" type="application/octet-stream" sparkle:edSignature="t8CyO9DJIWPbvY1l0YWRu0uaFTIOuCT9qpUlk9qyt6P51dYiHAdLwN8hgEMFkQ5HHnMSJjxetO4iCdD6eQpuAw=="/>
         </item>
     </channel>
 </rss>
