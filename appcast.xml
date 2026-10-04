@@ -3,6 +3,24 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.44</title>
+            <pubDate>Sun, 04 Oct 2026 04:00:02 -0400</pubDate>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>1.0.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- New Banking tab: see your business bank and card activity in one place — cash, card balances, money in, and spending by category, compared with last month. Read-only: Beacon never moves money.
+- Connect cards and banks (Amex, Chase, and most US banks) through SimpleFIN Bridge in Banking › Accounts; Beacon checks once each morning, or tap Sync now. Mercury can be connected with a read-only token.
+- Import downloaded statements (CSV, QFX, or OFX) for accounts no feed can reach, like QuickBooks Checking. Re-importing overlapping dates never creates duplicates.
+- Transactions categorize themselves: deposits and contractor payments are matched to payments already in Beacon, common merchants are recognized, and anything else waits in a short To review list. Your choices become rules for next time.
+- Export a year of categorized transactions as a CSV for your accountant.
+- Billing and profit reports now update with far less work behind the scenes.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.44/Beacon-1.0.44.zip" length="22289815" type="application/octet-stream" sparkle:edSignature="l+hEMRZxrehJe/mOG6B/0jGlFpc1ZryTBPKhlVUrmsPXbgGECW58ggUkEeZCzcxXLcdMa2byp0v4bP5Dgf6QDg=="/>
+        </item>
+        <item>
             <title>1.0.43</title>
             <pubDate>Sat, 03 Oct 2026 23:17:41 -0400</pubDate>
             <sparkle:version>44</sparkle:version>
@@ -134,22 +152,6 @@
 - The Cash Flow “Waiting on client payment” table shows each payee’s avatar.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.35/Beacon-1.0.35.zip" length="21699771" type="application/octet-stream" sparkle:edSignature="gqLiLXRZwUX2i0tbEy/l3D8547dm6ZVBHHZ6ZIu8n7uawbqdWEnZAb1EuSYd3A8C5JHOdHzHZTJYUZP/KXzZAg=="/>
-        </item>
-        <item>
-            <title>1.0.34</title>
-            <pubDate>Wed, 30 Sep 2026 14:36:38 -0400</pubDate>
-            <sparkle:version>35</sparkle:version>
-            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- A fresh look: a navy sidebar and goal rail, a calm sky-blue accent, flat surfaces with no heavy gradients, and the Manrope typeface throughout.
-- The dashboard greets you and highlights “Earned this month” in a navy tile. Tables and the Day timeline show each client’s color and emoji.
-- The collapsed goal rail now shows a pace-colored goal ring, earned this month, today’s hours, the running timer, and proposals waiting for review.
-- Invoice PDFs use Manrope with proper bold headings and totals, and full dates no longer get cut off.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.34/Beacon-1.0.34.zip" length="21707603" type="application/octet-stream" sparkle:edSignature="oDT2EFBVbvHCvk/wEJQKR73X5aeHsi+d3OFC3SXSqyaW06LzppGrLs2fQVvYZIBaXuoN6cqD7MtiOzVEGnAdBw=="/>
         </item>
     </channel>
 </rss>
