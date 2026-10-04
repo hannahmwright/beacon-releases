@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.43</title>
+            <pubDate>Sat, 03 Oct 2026 23:17:41 -0400</pubDate>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>1.0.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Add time for a subcontractor from the normal New Log form: pick them in the new Resource menu (it defaults to you).
+- Mac notifications for invoice drafts to review, automatic transfers to confirm, overdue invoices, payables due, and timers running long. Turn each on or off — and set how long counts as “long” — in Settings › Notifications.
+- Cash Flow shows the next 8 weeks of money in and out, with a running total.
+- Reports › Profit shows profit and margin by client and project for any period.
+- Finance numbers refresh when something changes instead of every 15 minutes, which keeps Beacon lighter.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.43/Beacon-1.0.43.zip" length="22084538" type="application/octet-stream" sparkle:edSignature="v2INlaiwtKNRdUs+Qe2m6n5VDt//ALBQ+KQbO4dWdC2f9lmYEJIZyRS2E3wqQV8SrrEuYLVOGx9w9ia8R5NaDA=="/>
+        </item>
+        <item>
             <title>1.0.42</title>
             <pubDate>Fri, 02 Oct 2026 18:41:28 -0400</pubDate>
             <sparkle:version>43</sparkle:version>
@@ -133,23 +150,6 @@
 - Invoice PDFs use Manrope with proper bold headings and totals, and full dates no longer get cut off.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.34/Beacon-1.0.34.zip" length="21707603" type="application/octet-stream" sparkle:edSignature="oDT2EFBVbvHCvk/wEJQKR73X5aeHsi+d3OFC3SXSqyaW06LzppGrLs2fQVvYZIBaXuoN6cqD7MtiOzVEGnAdBw=="/>
-        </item>
-        <item>
-            <title>1.0.33</title>
-            <pubDate>Wed, 30 Sep 2026 12:42:35 -0400</pubDate>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Company nicknames: give companies a short name that’s used around Beacon. Invoices, PDFs, QuickBooks, and anything sent to clients still use the full name.
-- Company rounding now drives billed time. Every company is set to round up to 15 minutes, matching how time was already billed; change a company’s rounding on its record, or override it on a work profile.
-- Goal cards turn green, yellow, or red based on pace, with clearer wording once a goal is met.
-- Fixes the empty panel that appeared under search fields and dropdowns.
-- Fixes the main content overlapping the sidebar and goal rail, and gives sidebar labels room to fit.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.33/Beacon-1.0.33.zip" length="21509267" type="application/octet-stream" sparkle:edSignature="Po6yGx23+ehFUPPDAGvrNpIburplReT0XJuQY2XlfIx96Go6ao7G8Ik/1DAWj3Hs609g4rNWAvU0UYkL3jsdBQ=="/>
         </item>
     </channel>
 </rss>
