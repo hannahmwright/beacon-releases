@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.48</title>
+            <pubDate>Mon, 05 Oct 2026 15:58:41 -0400</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>1.0.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Category dropdowns in Banking open faster, right inside the window.
+- New Rules view in Banking: see what Beacon remembered and which transactions each rule categorized. Change a rule's category — for future transactions only, or past ones too — or remove it and send its transactions back to To review.
+- Subscriptions now include usage-based services like Google Cloud, shown at their recent average.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.48/Beacon-1.0.48.zip" length="22486709" type="application/octet-stream" sparkle:edSignature="Mr7B8YMIScX4VnhneGaef021AkxcU3EIK3fTL5k7YJLFCEvHKQHsJ2MBa4dfijNzBKp/HDhP5fdEZxpXFDFADw=="/>
+        </item>
+        <item>
             <title>1.0.47</title>
             <pubDate>Mon, 05 Oct 2026 15:27:08 -0400</pubDate>
             <sparkle:version>48</sparkle:version>
@@ -148,19 +163,6 @@
 - Invoice composer descriptions grow to show the full text.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.39/Beacon-1.0.39.zip" length="21728593" type="application/octet-stream" sparkle:edSignature="+ACMC0g60PuqQz//V5uqI8pGPt6GxrXpX7FuD6+zThDnTS9ACW8hGleeH+xFxe+utxG+c5aD8U63VF3XK1bEDw=="/>
-        </item>
-        <item>
-            <title>1.0.38</title>
-            <pubDate>Fri, 02 Oct 2026 14:34:23 -0400</pubDate>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- New invoices show a checkbox on every line. Uncheck lines to hold them for a later invoice; their time logs stay unbilled and appear on the next invoice for that client.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.38/Beacon-1.0.38.zip" length="21723891" type="application/octet-stream" sparkle:edSignature="K0do2EJH0kFh12zaSFSx4Itms+SrMGzRA59OPCactdKR3xO5nWN8QWCjzKOa6P4/etEzKa6Vgs1+6rR17iRYBg=="/>
         </item>
     </channel>
 </rss>
