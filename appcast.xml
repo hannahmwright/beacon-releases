@@ -3,6 +3,22 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.46</title>
+            <pubDate>Mon, 05 Oct 2026 14:52:02 -0400</pubDate>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Category dropdowns in Banking open instantly, right under the field, ready to type into.
+- When you pick a category in To review, the row shows a green check with your choice (and whether Beacon will remember it) before it moves away.
+- Messages at the top of Banking clear themselves after a few seconds.
+- Fixed a leftover “90 days” notice that kept the SimpleFIN connection flagged.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.46/Beacon-1.0.46.zip" length="22385673" type="application/octet-stream" sparkle:edSignature="h8QQFonrlMeKPH+IoSqwvBdZkEmZtun0R3KDTdvaVocawi/P2uH1Innjq6QRm52bdc+8pe8PYjh7lpPNGUR4Bg=="/>
+        </item>
+        <item>
             <title>1.0.45</title>
             <pubDate>Mon, 05 Oct 2026 14:23:07 -0400</pubDate>
             <sparkle:version>46</sparkle:version>
@@ -141,19 +157,6 @@
 - Finance admins now see the goal section in the sidebar: invoiced, active work, and goal progress with pace. The goal month is shown for reference; only the owner can change it.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.37/Beacon-1.0.37.zip" length="21714077" type="application/octet-stream" sparkle:edSignature="pA07Acmy73AOcA15SzUBX6z1nxFFYGwhBc6bOKUPzphYB0jTqHkrad2xJswDMMd51U9cm1y2d0i72mOdKmLkCQ=="/>
-        </item>
-        <item>
-            <title>1.0.36</title>
-            <pubDate>Wed, 30 Sep 2026 16:06:27 -0400</pubDate>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Payee photos now appear in the Cash Flow and Payables “Waiting on client payment” tables instead of initials.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.36/Beacon-1.0.36.zip" length="21701078" type="application/octet-stream" sparkle:edSignature="4dijWe6e/uA3wwHwD5Hx5aJoqAhQKrnFetKKmXLvBFDCGXranp5hkMXzeEmk3WUalKX+DHf6F+dU5hLtc2sPAQ=="/>
         </item>
     </channel>
 </rss>
