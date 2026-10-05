@@ -3,6 +3,24 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.45</title>
+            <pubDate>Mon, 05 Oct 2026 14:23:07 -0400</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Search any category list in Banking: start typing ("food", "gas", "software") and press Return. Works in To review, the transactions table, transaction details, and the category filter.
+- Change a transaction's category right in the Banking table.
+- A cleaner Accounts window: cards and bank accounts grouped with totals, options tucked into a ⋯ menu, and a simple Add account step.
+- Banking windows close when you click outside them.
+- Spending by category now shows each category's share and what's still uncategorized.
+- Updates now install the newest version in one step.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.45/Beacon-1.0.45.zip" length="22362478" type="application/octet-stream" sparkle:edSignature="id7phvdP8nUgcItq4FMIsZwnCucjEhVJSaz54cdd2mxLZ6GUB7vb6xqWGhzVodBRX+g17OKwJNIePbEyJ/9ACw=="/>
+        </item>
+        <item>
             <title>1.0.44</title>
             <pubDate>Sun, 04 Oct 2026 04:00:02 -0400</pubDate>
             <sparkle:version>45</sparkle:version>
@@ -136,22 +154,6 @@
 - Payee photos now appear in the Cash Flow and Payables “Waiting on client payment” tables instead of initials.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.36/Beacon-1.0.36.zip" length="21701078" type="application/octet-stream" sparkle:edSignature="4dijWe6e/uA3wwHwD5Hx5aJoqAhQKrnFetKKmXLvBFDCGXranp5hkMXzeEmk3WUalKX+DHf6F+dU5hLtc2sPAQ=="/>
-        </item>
-        <item>
-            <title>1.0.35</title>
-            <pubDate>Wed, 30 Sep 2026 15:54:58 -0400</pubDate>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Goal tracking now lives at the bottom of the sidebar, and the right rail is gone, so tables and the timeline get the full window width.
-- Users and Settings moved into the menu on your name, making room for the full goal card on laptop screens.
-- Today’s hours and waiting proposals show next to Time, and a running timer gets its own row with a Stop button.
-- The Cash Flow “Waiting on client payment” table shows each payee’s avatar.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.35/Beacon-1.0.35.zip" length="21699771" type="application/octet-stream" sparkle:edSignature="gqLiLXRZwUX2i0tbEy/l3D8547dm6ZVBHHZ6ZIu8n7uawbqdWEnZAb1EuSYd3A8C5JHOdHzHZTJYUZP/KXzZAg=="/>
         </item>
     </channel>
 </rss>
