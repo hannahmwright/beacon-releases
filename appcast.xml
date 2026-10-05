@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.47</title>
+            <pubDate>Mon, 05 Oct 2026 15:27:08 -0400</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>1.0.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Banking has one Transactions section with three tabs: To review, All, and Subscriptions.
+- To review is built for speed: pick a category, see the check, move on. Add a note right in the row.
+- New Subscriptions tab: Beacon finds monthly and yearly charges and totals them. Use the switch to confirm one or mark it cancelled — Beacon flags any charge after you cancel.
+- New Card rewards & cash back category; card statement credits are recognized automatically.
+- Banking shows what's owed back to the business for personal charges, netting out refunds and paybacks.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.47/Beacon-1.0.47.zip" length="22442958" type="application/octet-stream" sparkle:edSignature="ISQVA5+XfhnwevbvHtpp+dLK4b/jrzE2yhzBd6RtdEOtUmUAX4l8OPTnboQFevtvnU85JVQtirUddQvdn/WFDg=="/>
+        </item>
+        <item>
             <title>1.0.46</title>
             <pubDate>Mon, 05 Oct 2026 14:52:02 -0400</pubDate>
             <sparkle:version>47</sparkle:version>
@@ -144,19 +161,6 @@
 - New invoices show a checkbox on every line. Uncheck lines to hold them for a later invoice; their time logs stay unbilled and appear on the next invoice for that client.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.38/Beacon-1.0.38.zip" length="21723891" type="application/octet-stream" sparkle:edSignature="K0do2EJH0kFh12zaSFSx4Itms+SrMGzRA59OPCactdKR3xO5nWN8QWCjzKOa6P4/etEzKa6Vgs1+6rR17iRYBg=="/>
-        </item>
-        <item>
-            <title>1.0.37</title>
-            <pubDate>Fri, 02 Oct 2026 13:34:40 -0400</pubDate>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Finance admins now see the goal section in the sidebar: invoiced, active work, and goal progress with pace. The goal month is shown for reference; only the owner can change it.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.37/Beacon-1.0.37.zip" length="21714077" type="application/octet-stream" sparkle:edSignature="pA07Acmy73AOcA15SzUBX6z1nxFFYGwhBc6bOKUPzphYB0jTqHkrad2xJswDMMd51U9cm1y2d0i72mOdKmLkCQ=="/>
         </item>
     </channel>
 </rss>
