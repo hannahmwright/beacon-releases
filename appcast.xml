@@ -3,6 +3,22 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.49</title>
+            <pubDate>Fri, 09 Oct 2026 18:38:04 -0400</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>1.0.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Press ⌘K to search Beacon: type an amount (like 2458.75 or $1,710), an invoice or payable number (#405), a company, contact, or transaction, and open it straight away. "Search all records" (⌘↩) looks through older history too.
+- Quick jumps from ⌘K: overdue or open invoices, payables ready to pay, Banking › To review, or a company's open invoices — type "powertek overdue" to go right there.
+- Banking: new Loan proceeds, Loan repayment, and Loan interest & fees categories. Only a repayment's interest counts as an expense.
+- Fixed: typing J or K in the Edit proposal box no longer gets swallowed and moves the list behind it.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.49/Beacon-1.0.49.zip" length="22601830" type="application/octet-stream" sparkle:edSignature="bf4Z+5ssiw6YdjNxr82See7CuY7HJvGYFO2Ztl/j+qoEKyS+Dfdg005UV3A+9qLga5+XerbV7hK8zVN1HCugAQ=="/>
+        </item>
+        <item>
             <title>1.0.48</title>
             <pubDate>Mon, 05 Oct 2026 15:58:41 -0400</pubDate>
             <sparkle:version>49</sparkle:version>
@@ -146,23 +162,6 @@
 - Tab switching and large tables are smoother.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.40/Beacon-1.0.40.zip" length="21736557" type="application/octet-stream" sparkle:edSignature="8JG99ApuVjdX/UNyf9pdfnSP/teQsveD1uSW0kFP9uHqWFN9nvLr4qAwzrWzgs2bbD8p/9HgiC3Km0X5lLc7BA=="/>
-        </item>
-        <item>
-            <title>1.0.39</title>
-            <pubDate>Fri, 02 Oct 2026 15:53:53 -0400</pubDate>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Every report and table fills the window and lets you resize columns by dragging the header edges.
-- Right-click any column header to sort or group by that column, low to high or high to low. Each report remembers your widths, sort, and grouping.
-- A company’s Invoices tab is grouped by year and shows Days to pay — how long paid invoices took, or how long open ones have been waiting.
-- Beacon opens filling your screen, and headers and toolbars adapt when the window is narrower instead of cutting off buttons.
-- Invoice composer descriptions grow to show the full text.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.39/Beacon-1.0.39.zip" length="21728593" type="application/octet-stream" sparkle:edSignature="+ACMC0g60PuqQz//V5uqI8pGPt6GxrXpX7FuD6+zThDnTS9ACW8hGleeH+xFxe+utxG+c5aD8U63VF3XK1bEDw=="/>
         </item>
     </channel>
 </rss>
