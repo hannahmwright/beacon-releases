@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.50</title>
+            <pubDate>Thu, 15 Oct 2026 15:41:37 -0400</pubDate>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>1.0.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Companies › Connections: link a company to an existing QuickBooks customer or vendor. Search QuickBooks, pick the record, and change or unlink it later. Beacon only saves the link; QuickBooks isn't changed.
+- QuickBooks Bills for a payee paid through their company now use the payee's established QuickBooks vendor when the company has no vendor linked, instead of failing.
+- Sign in with Passwords: if no Beacon login is saved, the button now says so instead of doing nothing, and Beacon offers to save your login to Passwords after you sign in with your email and password.
+- Banking: match transactions to invoices and payables, pair transfers (including loan accounts), split transactions, record statement balances, categorize many at once, review suggestions, and import QuickBooks checking CSVs.
+- Payroll: fixed-salary setup with a quarterly Form 941 screen and filled IRS PDF.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.50/Beacon-1.0.50.zip" length="23641824" type="application/octet-stream" sparkle:edSignature="Rx+oM04lO4WKT8SmZQBMK+JbhiRhunuJuY7aOq/rbet5K8d3Oo778XGwIZOl/RO+OdCHKwZHTwVEWYdmpMybBg=="/>
+        </item>
+        <item>
             <title>1.0.49</title>
             <pubDate>Fri, 09 Oct 2026 18:38:04 -0400</pubDate>
             <sparkle:version>50</sparkle:version>
@@ -148,20 +165,6 @@
 - Updates install the newest version on the first try.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.41/Beacon-1.0.41.zip" length="21745070" type="application/octet-stream" sparkle:edSignature="T0b02l/XdJC494T3nWRp/XNtDoxT/3UTobocgTqZTeVamuVWYuR4RD87hxatVNAaTVEYnzh9YoTHzQ+LVeS2BQ=="/>
-        </item>
-        <item>
-            <title>1.0.40</title>
-            <pubDate>Fri, 02 Oct 2026 16:52:41 -0400</pubDate>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>1.0.40</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Fixes a freeze that could happen when switching to the Dashboard right after sending an invoice.
-- Tab switching and large tables are smoother.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.40/Beacon-1.0.40.zip" length="21736557" type="application/octet-stream" sparkle:edSignature="8JG99ApuVjdX/UNyf9pdfnSP/teQsveD1uSW0kFP9uHqWFN9nvLr4qAwzrWzgs2bbD8p/9HgiC3Km0X5lLc7BA=="/>
         </item>
     </channel>
 </rss>
