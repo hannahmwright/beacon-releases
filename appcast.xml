@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.51</title>
+            <pubDate>Fri, 16 Oct 2026 13:16:46 -0400</pubDate>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Two Macs, one daily review: Settings › Capture › This Mac now has a Role. Set a second Mac to Capture only and it keeps capturing, publishes its app activity, Codex/T3, and Arc evidence for that day, and never runs reviews or sends to client apps. Your Reviewer Mac includes that evidence, labelled with the Mac's name, in the daily review.
+- The daily review won't run on an incomplete day: if a Capture-only Mac hasn't published, a review is blocked with a clear message and an explicit "Analyze without" option.
+- Screen Sharing time that overlaps the other Mac's work is no longer counted twice.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.51/Beacon-1.0.51.zip" length="23714135" type="application/octet-stream" sparkle:edSignature="MZzVabPuwWFkpgW9Ys25x8OKTNNZef92hIKcecMx83iTJNxedTYGKM/NEJdAT7VB7SNiLQqDhzxdfqJY8uLnBQ=="/>
+        </item>
+        <item>
             <title>1.0.50</title>
             <pubDate>Thu, 15 Oct 2026 15:41:37 -0400</pubDate>
             <sparkle:version>51</sparkle:version>
@@ -150,21 +165,6 @@
 - Subscriptions paid by automatic transfer: each month’s entry appears on the 1st with a Confirm received button, and you can keep a subscription out of your monthly goal.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.42/Beacon-1.0.42.zip" length="21809398" type="application/octet-stream" sparkle:edSignature="vOfd/Rem7KcH/Wpk9DPFQv9nPU611uZfbAzuH0YawRGi3gt6MM5b2KvttvSoMSXv5aTDQy5cp5aBUIVGmN8JBA=="/>
-        </item>
-        <item>
-            <title>1.0.41</title>
-            <pubDate>Fri, 02 Oct 2026 17:34:29 -0400</pubDate>
-            <sparkle:version>42</sparkle:version>
-            <sparkle:shortVersionString>1.0.41</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Reports › Billing history stays up to date as you invoice and get paid, and each invoice counts toward its “Counts toward” month (or invoice date).
-- The goal month picker is easy to read.
-- Updates install the newest version on the first try.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.41/Beacon-1.0.41.zip" length="21745070" type="application/octet-stream" sparkle:edSignature="T0b02l/XdJC494T3nWRp/XNtDoxT/3UTobocgTqZTeVamuVWYuR4RD87hxatVNAaTVEYnzh9YoTHzQ+LVeS2BQ=="/>
         </item>
     </channel>
 </rss>
