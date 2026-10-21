@@ -3,6 +3,25 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.53</title>
+            <pubDate>Wed, 21 Oct 2026 01:33:05 -0400</pubDate>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>1.0.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- New time logs start with a single description bullet, ready to type.
+- Editing a log, adding one (⌘N), and dragging out a new log on the timeline now open in a panel on the right, so the calendar stays in view. In narrow windows the panel floats and the week scrolls sideways to show the days behind it.
+- One click opens a time log on the Day and Week timelines. Dragging a log or its resize handles never opens it.
+- Week view: click and drag across empty time to add a log, resize handles appear on hover, and each block shows the company’s emoji. The week now opens near your earliest work instead of at 12 AM.
+- Reviewing recommended logs in Week view: a tray along the bottom lists the selected day’s recommendations. Approve, edit, or exclude them while you look at the week, or tick several and approve them together with one undo. Days with recommendations waiting show a count badge.
+- Signing in on a new Mac now brings down all your clients, projects, and time-log history.
+- Client names, emoji, and colours, and project names, now sync between your Macs. The first time a Mac syncs, its own clients and projects are kept.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.53/Beacon-1.0.53.zip" length="23876293" type="application/octet-stream" sparkle:edSignature="XNKqPH8Oy2twrA7KwkOtsZ2MyrRVDikccaHKUC4mXVdZeEAxdjjKz0/YE5qib8wToatqiw6E28Fujrz3cFACAw=="/>
+        </item>
+        <item>
             <title>1.0.52</title>
             <pubDate>Fri, 16 Oct 2026 15:23:45 -0400</pubDate>
             <sparkle:version>53</sparkle:version>
@@ -146,23 +165,6 @@
 - Billing and profit reports now update with far less work behind the scenes.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.44/Beacon-1.0.44.zip" length="22289815" type="application/octet-stream" sparkle:edSignature="l+hEMRZxrehJe/mOG6B/0jGlFpc1ZryTBPKhlVUrmsPXbgGECW58ggUkEeZCzcxXLcdMa2byp0v4bP5Dgf6QDg=="/>
-        </item>
-        <item>
-            <title>1.0.43</title>
-            <pubDate>Sat, 03 Oct 2026 23:17:41 -0400</pubDate>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>1.0.43</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Add time for a subcontractor from the normal New Log form: pick them in the new Resource menu (it defaults to you).
-- Mac notifications for invoice drafts to review, automatic transfers to confirm, overdue invoices, payables due, and timers running long. Turn each on or off — and set how long counts as “long” — in Settings › Notifications.
-- Cash Flow shows the next 8 weeks of money in and out, with a running total.
-- Reports › Profit shows profit and margin by client and project for any period.
-- Finance numbers refresh when something changes instead of every 15 minutes, which keeps Beacon lighter.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.43/Beacon-1.0.43.zip" length="22084538" type="application/octet-stream" sparkle:edSignature="v2INlaiwtKNRdUs+Qe2m6n5VDt//ALBQ+KQbO4dWdC2f9lmYEJIZyRS2E3wqQV8SrrEuYLVOGx9w9ia8R5NaDA=="/>
         </item>
     </channel>
 </rss>
