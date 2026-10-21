@@ -3,6 +3,20 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.58</title>
+            <pubDate>Wed, 21 Oct 2026 16:21:20 -0400</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>1.0.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Days your other Mac sent before 1.0.57 with an “Arc history” problem can now be analyzed. Browser history never blocks a review.
+- A Mac now re-sends a day that had a capture problem once the problem is fixed.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.58/Beacon-1.0.58.zip" length="23988407" type="application/octet-stream" sparkle:edSignature="JYVWudtEwYcpQ+cV4iQvOOAjNmmgpi9+GXa+D9Rlbi6OcHKdJHLecGOv3CWNNemIgEoWKK4WkjXncL7u3txuBQ=="/>
+        </item>
+        <item>
             <title>1.0.57</title>
             <pubDate>Wed, 21 Oct 2026 16:10:06 -0400</pubDate>
             <sparkle:version>58</sparkle:version>
@@ -142,21 +156,6 @@
 - Fixed: typing J or K in the Edit proposal box no longer gets swallowed and moves the list behind it.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.49/Beacon-1.0.49.zip" length="22601830" type="application/octet-stream" sparkle:edSignature="bf4Z+5ssiw6YdjNxr82See7CuY7HJvGYFO2Ztl/j+qoEKyS+Dfdg005UV3A+9qLga5+XerbV7hK8zVN1HCugAQ=="/>
-        </item>
-        <item>
-            <title>1.0.48</title>
-            <pubDate>Mon, 05 Oct 2026 15:58:41 -0400</pubDate>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>1.0.48</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Category dropdowns in Banking open faster, right inside the window.
-- New Rules view in Banking: see what Beacon remembered and which transactions each rule categorized. Change a rule's category — for future transactions only, or past ones too — or remove it and send its transactions back to To review.
-- Subscriptions now include usage-based services like Google Cloud, shown at their recent average.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.48/Beacon-1.0.48.zip" length="22486709" type="application/octet-stream" sparkle:edSignature="Mr7B8YMIScX4VnhneGaef021AkxcU3EIK3fTL5k7YJLFCEvHKQHsJ2MBa4dfijNzBKp/HDhP5fdEZxpXFDFADw=="/>
         </item>
     </channel>
 </rss>
