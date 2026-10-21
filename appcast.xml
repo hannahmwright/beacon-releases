@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.56</title>
+            <pubDate>Wed, 21 Oct 2026 02:45:09 -0400</pubDate>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>1.0.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Editing a recommended time log syncs to your other Macs, so everyone sees the edited version. If it’s edited in two places, the newer edit wins.
+- Merging recommendations works across your Macs too.
+- Approving a recommendation after moving it to a different project now keeps the new project.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.56/Beacon-1.0.56.zip" length="23973913" type="application/octet-stream" sparkle:edSignature="F0+djFHxvEkP7w/X5AEue4fuzd5Xg+TyzWpUCYFrR8BlWDbSWv7CXaqxltxAVgnLhWf+VW/QFL2JZXnqIAffDQ=="/>
+        </item>
+        <item>
             <title>1.0.55</title>
             <pubDate>Wed, 21 Oct 2026 02:33:23 -0400</pubDate>
             <sparkle:version>56</sparkle:version>
@@ -144,22 +159,6 @@
 - Banking shows what's owed back to the business for personal charges, netting out refunds and paybacks.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.47/Beacon-1.0.47.zip" length="22442958" type="application/octet-stream" sparkle:edSignature="ISQVA5+XfhnwevbvHtpp+dLK4b/jrzE2yhzBd6RtdEOtUmUAX4l8OPTnboQFevtvnU85JVQtirUddQvdn/WFDg=="/>
-        </item>
-        <item>
-            <title>1.0.46</title>
-            <pubDate>Mon, 05 Oct 2026 14:52:02 -0400</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>1.0.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Category dropdowns in Banking open instantly, right under the field, ready to type into.
-- When you pick a category in To review, the row shows a green check with your choice (and whether Beacon will remember it) before it moves away.
-- Messages at the top of Banking clear themselves after a few seconds.
-- Fixed a leftover “90 days” notice that kept the SimpleFIN connection flagged.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.46/Beacon-1.0.46.zip" length="22385673" type="application/octet-stream" sparkle:edSignature="h8QQFonrlMeKPH+IoSqwvBdZkEmZtun0R3KDTdvaVocawi/P2uH1Innjq6QRm52bdc+8pe8PYjh7lpPNGUR4Bg=="/>
         </item>
     </channel>
 </rss>
