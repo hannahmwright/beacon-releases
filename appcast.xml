@@ -3,6 +3,22 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.55</title>
+            <pubDate>Wed, 21 Oct 2026 02:33:23 -0400</pubDate>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>1.0.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Recommended time logs are shared between your Macs. The Mac that prepares them uploads each day, and every Mac signed in as you shows the same recommendations in Day and Week view.
+- Approve, exclude, approve several at once, or undo from any Mac. A recommendation can only ever become one time log, even if you approve it on two Macs.
+- An approved log appears right away, and its billing details fill in on the next sync.
+- Recommendations you already approved or excluded on the reviewing Mac carry over.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.55/Beacon-1.0.55.zip" length="23964768" type="application/octet-stream" sparkle:edSignature="acxRLZykGXQ32DuX358RkZH7vHOTmDoGwkBZOwkKIQEdHuENXgP0MiOGAl7XhIXTp9gIH/Tp7yXN0xxFVFFeBA=="/>
+        </item>
+        <item>
             <title>1.0.54</title>
             <pubDate>Wed, 21 Oct 2026 01:57:55 -0400</pubDate>
             <sparkle:version>55</sparkle:version>
@@ -144,24 +160,6 @@
 - Fixed a leftover “90 days” notice that kept the SimpleFIN connection flagged.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.46/Beacon-1.0.46.zip" length="22385673" type="application/octet-stream" sparkle:edSignature="h8QQFonrlMeKPH+IoSqwvBdZkEmZtun0R3KDTdvaVocawi/P2uH1Innjq6QRm52bdc+8pe8PYjh7lpPNGUR4Bg=="/>
-        </item>
-        <item>
-            <title>1.0.45</title>
-            <pubDate>Mon, 05 Oct 2026 14:23:07 -0400</pubDate>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>1.0.45</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Search any category list in Banking: start typing ("food", "gas", "software") and press Return. Works in To review, the transactions table, transaction details, and the category filter.
-- Change a transaction's category right in the Banking table.
-- A cleaner Accounts window: cards and bank accounts grouped with totals, options tucked into a ⋯ menu, and a simple Add account step.
-- Banking windows close when you click outside them.
-- Spending by category now shows each category's share and what's still uncategorized.
-- Updates now install the newest version in one step.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.45/Beacon-1.0.45.zip" length="22362478" type="application/octet-stream" sparkle:edSignature="id7phvdP8nUgcItq4FMIsZwnCucjEhVJSaz54cdd2mxLZ6GUB7vb6xqWGhzVodBRX+g17OKwJNIePbEyJ/9ACw=="/>
         </item>
     </channel>
 </rss>
