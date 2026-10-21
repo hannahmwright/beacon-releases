@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.57</title>
+            <pubDate>Wed, 21 Oct 2026 16:10:06 -0400</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>1.0.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- A Mac that doesn’t use Arc no longer stops your other Mac from analyzing a day.
+- Beacon now reads Vivaldi and Safari history, as well as Arc, to fill gaps in your browsing time. Visits synced from your iPhone count too.
+- A browser history problem shows as a warning on the day instead of blocking the review.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.57/Beacon-1.0.57.zip" length="23987755" type="application/octet-stream" sparkle:edSignature="h7GFrm5A2wQjzZq+sIa77GlqDQpjRbRbHgcl3R5KovUBYX86HNjy677/Ujf3p+TEJCMS/0zgVIqT7GoTls7iBA=="/>
+        </item>
+        <item>
             <title>1.0.56</title>
             <pubDate>Wed, 21 Oct 2026 02:45:09 -0400</pubDate>
             <sparkle:version>57</sparkle:version>
@@ -142,23 +157,6 @@
 - Subscriptions now include usage-based services like Google Cloud, shown at their recent average.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.48/Beacon-1.0.48.zip" length="22486709" type="application/octet-stream" sparkle:edSignature="Mr7B8YMIScX4VnhneGaef021AkxcU3EIK3fTL5k7YJLFCEvHKQHsJ2MBa4dfijNzBKp/HDhP5fdEZxpXFDFADw=="/>
-        </item>
-        <item>
-            <title>1.0.47</title>
-            <pubDate>Mon, 05 Oct 2026 15:27:08 -0400</pubDate>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>1.0.47</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Banking has one Transactions section with three tabs: To review, All, and Subscriptions.
-- To review is built for speed: pick a category, see the check, move on. Add a note right in the row.
-- New Subscriptions tab: Beacon finds monthly and yearly charges and totals them. Use the switch to confirm one or mark it cancelled — Beacon flags any charge after you cancel.
-- New Card rewards & cash back category; card statement credits are recognized automatically.
-- Banking shows what's owed back to the business for personal charges, netting out refunds and paybacks.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.47/Beacon-1.0.47.zip" length="22442958" type="application/octet-stream" sparkle:edSignature="ISQVA5+XfhnwevbvHtpp+dLK4b/jrzE2yhzBd6RtdEOtUmUAX4l8OPTnboQFevtvnU85JVQtirUddQvdn/WFDg=="/>
         </item>
     </channel>
 </rss>
