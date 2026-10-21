@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.54</title>
+            <pubDate>Wed, 21 Oct 2026 01:57:55 -0400</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>1.0.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Daily review catches up on missed days. If the Mac that prepares your recommended time logs wasn’t open when a day came due, Beacon now goes back and prepares every day it missed in the last two weeks, newest first, instead of skipping them.
+- A day that can’t be prepared yet (for example, another Mac hasn’t shared that day’s activity) is retried later without holding up the other days.
+- Days with no activity are marked done quietly, without a notification.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.54/Beacon-1.0.54.zip" length="23879801" type="application/octet-stream" sparkle:edSignature="lkTwzHaQWOh4J0EQe3xpV/jod+q+dwJUWuKzvIgPLAHUiRtQWsx0lceoRQzrWnXeu/R9VRwBCR3AuXbXkEgbAg=="/>
+        </item>
+        <item>
             <title>1.0.53</title>
             <pubDate>Wed, 21 Oct 2026 01:33:05 -0400</pubDate>
             <sparkle:version>54</sparkle:version>
@@ -147,24 +162,6 @@
 - Updates now install the newest version in one step.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.45/Beacon-1.0.45.zip" length="22362478" type="application/octet-stream" sparkle:edSignature="id7phvdP8nUgcItq4FMIsZwnCucjEhVJSaz54cdd2mxLZ6GUB7vb6xqWGhzVodBRX+g17OKwJNIePbEyJ/9ACw=="/>
-        </item>
-        <item>
-            <title>1.0.44</title>
-            <pubDate>Sun, 04 Oct 2026 04:00:02 -0400</pubDate>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>1.0.44</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- New Banking tab: see your business bank and card activity in one place — cash, card balances, money in, and spending by category, compared with last month. Read-only: Beacon never moves money.
-- Connect cards and banks (Amex, Chase, and most US banks) through SimpleFIN Bridge in Banking › Accounts; Beacon checks once each morning, or tap Sync now. Mercury can be connected with a read-only token.
-- Import downloaded statements (CSV, QFX, or OFX) for accounts no feed can reach, like QuickBooks Checking. Re-importing overlapping dates never creates duplicates.
-- Transactions categorize themselves: deposits and contractor payments are matched to payments already in Beacon, common merchants are recognized, and anything else waits in a short To review list. Your choices become rules for next time.
-- Export a year of categorized transactions as a CSV for your accountant.
-- Billing and profit reports now update with far less work behind the scenes.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.44/Beacon-1.0.44.zip" length="22289815" type="application/octet-stream" sparkle:edSignature="l+hEMRZxrehJe/mOG6B/0jGlFpc1ZryTBPKhlVUrmsPXbgGECW58ggUkEeZCzcxXLcdMa2byp0v4bP5Dgf6QDg=="/>
         </item>
     </channel>
 </rss>
