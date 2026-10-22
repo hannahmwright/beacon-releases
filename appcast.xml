@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.59</title>
+            <pubDate>Thu, 22 Oct 2026 10:11:56 -0400</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>1.0.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Notes on invoices, payables, and companies: each note shows who added it and when, newest first. Notes are searchable, and you can choose who gets an email about a new note.
+- Names of other records are now links. Clients, people, projects, invoices, and payables mentioned on a record open that record, including invoice line items, related payables, a payable’s “What for,” and matches in Banking.
+- A brief network interruption no longer signs Beacon out.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.59/Beacon-1.0.59.zip" length="24120341" type="application/octet-stream" sparkle:edSignature="lVIBpcaLILnYdMSnacjPhQSv7hzN70YT3RFm/6p7v+cIjo2qxURnBcxKDwPjhi1IsUZ/FNpDTYdSLjQxrYxEAQ=="/>
+        </item>
+        <item>
             <title>1.0.58</title>
             <pubDate>Wed, 21 Oct 2026 16:21:20 -0400</pubDate>
             <sparkle:version>59</sparkle:version>
@@ -140,22 +155,6 @@
 - Payroll: fixed-salary setup with a quarterly Form 941 screen and filled IRS PDF.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.50/Beacon-1.0.50.zip" length="23641824" type="application/octet-stream" sparkle:edSignature="Rx+oM04lO4WKT8SmZQBMK+JbhiRhunuJuY7aOq/rbet5K8d3Oo778XGwIZOl/RO+OdCHKwZHTwVEWYdmpMybBg=="/>
-        </item>
-        <item>
-            <title>1.0.49</title>
-            <pubDate>Fri, 09 Oct 2026 18:38:04 -0400</pubDate>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>1.0.49</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Press ⌘K to search Beacon: type an amount (like 2458.75 or $1,710), an invoice or payable number (#405), a company, contact, or transaction, and open it straight away. "Search all records" (⌘↩) looks through older history too.
-- Quick jumps from ⌘K: overdue or open invoices, payables ready to pay, Banking › To review, or a company's open invoices — type "powertek overdue" to go right there.
-- Banking: new Loan proceeds, Loan repayment, and Loan interest & fees categories. Only a repayment's interest counts as an expense.
-- Fixed: typing J or K in the Edit proposal box no longer gets swallowed and moves the list behind it.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.49/Beacon-1.0.49.zip" length="22601830" type="application/octet-stream" sparkle:edSignature="bf4Z+5ssiw6YdjNxr82See7CuY7HJvGYFO2Ztl/j+qoEKyS+Dfdg005UV3A+9qLga5+XerbV7hK8zVN1HCugAQ=="/>
         </item>
     </channel>
 </rss>
