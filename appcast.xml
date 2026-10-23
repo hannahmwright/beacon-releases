@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.60</title>
+            <pubDate>Fri, 23 Oct 2026 01:41:17 -0400</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.0.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Rules are shared between your Macs. Add, edit, or delete a rule on one Mac and the other follows.
+- Rules are easier to manage. Each rule reads as a sentence and shows how often it matched recently, and rules that haven't matched in 90 days are marked Unused. Click a rule to edit it in a side panel, with a live preview of what it catches and a warning when another client's rule overlaps. Saves and deletions can be undone.
+- Companies → All rules lists every rule, and ⌘K finds rules too. Rules no longer appear in Settings.
+- New Code project rules send a T3 Code or Codex project to a client. Choose from a list of your projects.
+- Beacon reads T3 Code threads again. A T3 Code update in mid-October had hidden them from daily reviews.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.60/Beacon-1.0.60.zip" length="24239174" type="application/octet-stream" sparkle:edSignature="Qm8fYLt/Q0IP0tWX5nsBnvRCfn7MtHHJNxL0Hn47DlcodlSZkvyZIolsJI2Qy2N41HRuypMVzmeh8zVeClSOBw=="/>
+        </item>
+        <item>
             <title>1.0.59</title>
             <pubDate>Thu, 22 Oct 2026 10:11:56 -0400</pubDate>
             <sparkle:version>60</sparkle:version>
@@ -138,23 +155,6 @@
 - Screen Sharing time that overlaps the other Mac's work is no longer counted twice.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.51/Beacon-1.0.51.zip" length="23714135" type="application/octet-stream" sparkle:edSignature="MZzVabPuwWFkpgW9Ys25x8OKTNNZef92hIKcecMx83iTJNxedTYGKM/NEJdAT7VB7SNiLQqDhzxdfqJY8uLnBQ=="/>
-        </item>
-        <item>
-            <title>1.0.50</title>
-            <pubDate>Thu, 15 Oct 2026 15:41:37 -0400</pubDate>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>1.0.50</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Companies › Connections: link a company to an existing QuickBooks customer or vendor. Search QuickBooks, pick the record, and change or unlink it later. Beacon only saves the link; QuickBooks isn't changed.
-- QuickBooks Bills for a payee paid through their company now use the payee's established QuickBooks vendor when the company has no vendor linked, instead of failing.
-- Sign in with Passwords: if no Beacon login is saved, the button now says so instead of doing nothing, and Beacon offers to save your login to Passwords after you sign in with your email and password.
-- Banking: match transactions to invoices and payables, pair transfers (including loan accounts), split transactions, record statement balances, categorize many at once, review suggestions, and import QuickBooks checking CSVs.
-- Payroll: fixed-salary setup with a quarterly Form 941 screen and filled IRS PDF.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.50/Beacon-1.0.50.zip" length="23641824" type="application/octet-stream" sparkle:edSignature="Rx+oM04lO4WKT8SmZQBMK+JbhiRhunuJuY7aOq/rbet5K8d3Oo778XGwIZOl/RO+OdCHKwZHTwVEWYdmpMybBg=="/>
         </item>
     </channel>
 </rss>
