@@ -3,6 +3,19 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.61</title>
+            <pubDate>Fri, 23 Oct 2026 15:14:37 -0400</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>1.0.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- A Capture-only Mac resends its evidence from October 12 on, one time, so the Reviewer Mac gets the T3 Code threads it missed. Use Analyze again on those days to include them.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.61/Beacon-1.0.61.zip" length="24243462" type="application/octet-stream" sparkle:edSignature="lIw4hq9Nf5ldq/4Pe8cD5hGRa+VaJh1RaaAZw8XrkfAEsziectR8FV00GL2Cal33p9nQQkE0qvGresr0zgu7Cg=="/>
+        </item>
+        <item>
             <title>1.0.60</title>
             <pubDate>Fri, 23 Oct 2026 01:41:17 -0400</pubDate>
             <sparkle:version>61</sparkle:version>
@@ -140,21 +153,6 @@
 - Two-Mac daily review: simultaneous work for different clients or projects on different Macs is kept as separate parallel work. Only the same work seen from both Macs (for example, driving a Mac mini thread from T3 Code or Screen Sharing on the MacBook) is counted once.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.52/Beacon-1.0.52.zip" length="23714359" type="application/octet-stream" sparkle:edSignature="xHPz3Dnoak8k32G+fOQ+apxyd24sLy48YN9dJW3XhgErmgAQvwx6yXv4VFVrslwYYfbZLQKJM4yRZEb4gI1XDg=="/>
-        </item>
-        <item>
-            <title>1.0.51</title>
-            <pubDate>Fri, 16 Oct 2026 13:16:46 -0400</pubDate>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>1.0.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Two Macs, one daily review: Settings › Capture › This Mac now has a Role. Set a second Mac to Capture only and it keeps capturing, publishes its app activity, Codex/T3, and Arc evidence for that day, and never runs reviews or sends to client apps. Your Reviewer Mac includes that evidence, labelled with the Mac's name, in the daily review.
-- The daily review won't run on an incomplete day: if a Capture-only Mac hasn't published, a review is blocked with a clear message and an explicit "Analyze without" option.
-- Screen Sharing time that overlaps the other Mac's work is no longer counted twice.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.51/Beacon-1.0.51.zip" length="23714135" type="application/octet-stream" sparkle:edSignature="MZzVabPuwWFkpgW9Ys25x8OKTNNZef92hIKcecMx83iTJNxedTYGKM/NEJdAT7VB7SNiLQqDhzxdfqJY8uLnBQ=="/>
         </item>
     </channel>
 </rss>
