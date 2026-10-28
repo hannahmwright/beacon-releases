@@ -3,6 +3,23 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.63</title>
+            <pubDate>Tue, 27 Oct 2026 22:05:03 -0400</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>1.0.63</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Back and Forward: your mouse’s back/forward buttons, a two-finger swipe, or ⌘[ / ⌘] return to the screen you were just on (Go menu). In the Time calendar, ← / → still step days.
+- Day review shows every other day with proposals waiting, a Next day button once a day is done, Exclude for several proposals at once, and a Reviewed list where an exclusion can be restored.
+- Proposals show their full description, and the review header shows pending billable time and which Mac reviewed the day.
+- The proposal editor has a Billable switch and lists only the projects you’re assigned to that day.
+- Calendars mark days with proposals to review (blue dot) and past days not analyzed yet (amber ring): a week strip on Day, Week, Month, and the date picker.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.63/Beacon-1.0.63.zip" length="24346290" type="application/octet-stream" sparkle:edSignature="2Gq+S4iJhlV6AK65h5wB1nISstLno+2DXrLjTVCswxlRGMy01Yp7vVwyb2vc8KrQUaSl0MxbObJKw9SJr6IEDA=="/>
+        </item>
+        <item>
             <title>1.0.62</title>
             <pubDate>Tue, 27 Oct 2026 20:17:51 -0400</pubDate>
             <sparkle:version>63</sparkle:version>
@@ -135,25 +152,6 @@
 - Days with no activity are marked done quietly, without a notification.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.54/Beacon-1.0.54.zip" length="23879801" type="application/octet-stream" sparkle:edSignature="lkTwzHaQWOh4J0EQe3xpV/jod+q+dwJUWuKzvIgPLAHUiRtQWsx0lceoRQzrWnXeu/R9VRwBCR3AuXbXkEgbAg=="/>
-        </item>
-        <item>
-            <title>1.0.53</title>
-            <pubDate>Wed, 21 Oct 2026 01:33:05 -0400</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>1.0.53</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- New time logs start with a single description bullet, ready to type.
-- Editing a log, adding one (⌘N), and dragging out a new log on the timeline now open in a panel on the right, so the calendar stays in view. In narrow windows the panel floats and the week scrolls sideways to show the days behind it.
-- One click opens a time log on the Day and Week timelines. Dragging a log or its resize handles never opens it.
-- Week view: click and drag across empty time to add a log, resize handles appear on hover, and each block shows the company’s emoji. The week now opens near your earliest work instead of at 12 AM.
-- Reviewing recommended logs in Week view: a tray along the bottom lists the selected day’s recommendations. Approve, edit, or exclude them while you look at the week, or tick several and approve them together with one undo. Days with recommendations waiting show a count badge.
-- Signing in on a new Mac now brings down all your clients, projects, and time-log history.
-- Client names, emoji, and colours, and project names, now sync between your Macs. The first time a Mac syncs, its own clients and projects are kept.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.53/Beacon-1.0.53.zip" length="23876293" type="application/octet-stream" sparkle:edSignature="XNKqPH8Oy2twrA7KwkOtsZ2MyrRVDikccaHKUC4mXVdZeEAxdjjKz0/YE5qib8wToatqiw6E28Fujrz3cFACAw=="/>
         </item>
     </channel>
 </rss>
