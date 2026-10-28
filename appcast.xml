@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.64</title>
+            <pubDate>Tue, 27 Oct 2026 22:33:03 -0400</pubDate>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>1.0.64</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- On a Capture-only Mac, Day has “Send this Mac’s evidence”: it captures the day and sends it to your Reviewer Mac right away, and shows when it was last sent. The Reviewer still analyzes a day only once every Mac’s evidence is in.
+- Signing back in sends anything that piled up while signed out immediately.
+- Beacon no longer signs you out when the server has a hiccup while restoring your session (for example right after an update). Only a session the server rejects is forgotten.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.64/Beacon-1.0.64.zip" length="24352687" type="application/octet-stream" sparkle:edSignature="gVcOZeEqGmwfoIrwrRwulAijlBxFWDoVCYZPZom0VkwDQkvPeRI3O6qiK88ciRQh2/SNqkv784VYhIUPczynBg=="/>
+        </item>
+        <item>
             <title>1.0.63</title>
             <pubDate>Tue, 27 Oct 2026 22:05:03 -0400</pubDate>
             <sparkle:version>64</sparkle:version>
@@ -137,21 +152,6 @@
 - Recommendations you already approved or excluded on the reviewing Mac carry over.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.55/Beacon-1.0.55.zip" length="23964768" type="application/octet-stream" sparkle:edSignature="acxRLZykGXQ32DuX358RkZH7vHOTmDoGwkBZOwkKIQEdHuENXgP0MiOGAl7XhIXTp9gIH/Tp7yXN0xxFVFFeBA=="/>
-        </item>
-        <item>
-            <title>1.0.54</title>
-            <pubDate>Wed, 21 Oct 2026 01:57:55 -0400</pubDate>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>1.0.54</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Daily review catches up on missed days. If the Mac that prepares your recommended time logs wasn’t open when a day came due, Beacon now goes back and prepares every day it missed in the last two weeks, newest first, instead of skipping them.
-- A day that can’t be prepared yet (for example, another Mac hasn’t shared that day’s activity) is retried later without holding up the other days.
-- Days with no activity are marked done quietly, without a notification.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.54/Beacon-1.0.54.zip" length="23879801" type="application/octet-stream" sparkle:edSignature="lkTwzHaQWOh4J0EQe3xpV/jod+q+dwJUWuKzvIgPLAHUiRtQWsx0lceoRQzrWnXeu/R9VRwBCR3AuXbXkEgbAg=="/>
         </item>
     </channel>
 </rss>
