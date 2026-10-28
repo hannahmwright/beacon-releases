@@ -3,6 +3,20 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.65</title>
+            <pubDate>Tue, 27 Oct 2026 23:16:25 -0400</pubDate>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>1.0.65</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- A day that hasn’t been analyzed shows each Mac’s evidence: sent, still updating, capture problems, or not sent yet. Hover a not-analyzed day in Day’s week strip to see which Mac it’s waiting on.
+- “Ask to send”: ask another Mac to capture and send a day from this Mac or your iPhone. An awake, signed-in Capture-only Mac sends it right away.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.65/Beacon-1.0.65.zip" length="24392380" type="application/octet-stream" sparkle:edSignature="vzat6Gna52wRfU5ngmu7CZL3QeabVAHw50pQmBbl3BhHaiSYWHyPgZQm8vpunVpeg8OW+fOt48QI9qOeL3I7Dw=="/>
+        </item>
+        <item>
             <title>1.0.64</title>
             <pubDate>Tue, 27 Oct 2026 22:33:03 -0400</pubDate>
             <sparkle:version>65</sparkle:version>
@@ -136,22 +150,6 @@
 - Approving a recommendation after moving it to a different project now keeps the new project.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.56/Beacon-1.0.56.zip" length="23973913" type="application/octet-stream" sparkle:edSignature="F0+djFHxvEkP7w/X5AEue4fuzd5Xg+TyzWpUCYFrR8BlWDbSWv7CXaqxltxAVgnLhWf+VW/QFL2JZXnqIAffDQ=="/>
-        </item>
-        <item>
-            <title>1.0.55</title>
-            <pubDate>Wed, 21 Oct 2026 02:33:23 -0400</pubDate>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>1.0.55</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Recommended time logs are shared between your Macs. The Mac that prepares them uploads each day, and every Mac signed in as you shows the same recommendations in Day and Week view.
-- Approve, exclude, approve several at once, or undo from any Mac. A recommendation can only ever become one time log, even if you approve it on two Macs.
-- An approved log appears right away, and its billing details fill in on the next sync.
-- Recommendations you already approved or excluded on the reviewing Mac carry over.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.55/Beacon-1.0.55.zip" length="23964768" type="application/octet-stream" sparkle:edSignature="acxRLZykGXQ32DuX358RkZH7vHOTmDoGwkBZOwkKIQEdHuENXgP0MiOGAl7XhIXTp9gIH/Tp7yXN0xxFVFFeBA=="/>
         </item>
     </channel>
 </rss>
