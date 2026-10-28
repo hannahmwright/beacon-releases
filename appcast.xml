@@ -3,6 +3,20 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.66</title>
+            <pubDate>Tue, 27 Oct 2026 23:39:45 -0400</pubDate>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>1.0.66</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Month view: each day shows a color bar of the clients you worked on (hover a color to see the client and time), days tint deeper with billable hours, and a Week column totals each week’s billable time and revenue.
+- The Dashboard tab is called Dashboard for everyone. Owners open on My Dashboard; finance admins open on Cash Flow and can also see the Owner Dashboard (the monthly goal and what’s ready to invoice).
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.66/Beacon-1.0.66.zip" length="24429504" type="application/octet-stream" sparkle:edSignature="eHvD9H3PqtVX8NWo2Jc0fqQEpUNRFBVtveXpmO9WY1F3pcbk/DmBcUHmbWVRLtTqXyGEMB1+9xtk6nodSFQ3Cw=="/>
+        </item>
+        <item>
             <title>1.0.65</title>
             <pubDate>Tue, 27 Oct 2026 23:16:25 -0400</pubDate>
             <sparkle:version>66</sparkle:version>
@@ -135,21 +149,6 @@
 - A browser history problem shows as a warning on the day instead of blocking the review.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.57/Beacon-1.0.57.zip" length="23987755" type="application/octet-stream" sparkle:edSignature="h7GFrm5A2wQjzZq+sIa77GlqDQpjRbRbHgcl3R5KovUBYX86HNjy677/Ujf3p+TEJCMS/0zgVIqT7GoTls7iBA=="/>
-        </item>
-        <item>
-            <title>1.0.56</title>
-            <pubDate>Wed, 21 Oct 2026 02:45:09 -0400</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>1.0.56</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Editing a recommended time log syncs to your other Macs, so everyone sees the edited version. If it’s edited in two places, the newer edit wins.
-- Merging recommendations works across your Macs too.
-- Approving a recommendation after moving it to a different project now keeps the new project.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.56/Beacon-1.0.56.zip" length="23973913" type="application/octet-stream" sparkle:edSignature="F0+djFHxvEkP7w/X5AEue4fuzd5Xg+TyzWpUCYFrR8BlWDbSWv7CXaqxltxAVgnLhWf+VW/QFL2JZXnqIAffDQ=="/>
         </item>
     </channel>
 </rss>
