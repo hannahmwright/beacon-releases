@@ -3,6 +3,20 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.62</title>
+            <pubDate>Tue, 27 Oct 2026 20:17:51 -0400</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>1.0.62</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Signing in with a typed password now offers to save the login in Passwords or 1Password, with one-click copy for the website, email and password, so “Fill from Passwords” works next time.
+- Logins saved for the Beacon web portal (beacon.vervetechgroup.com) now fill in the app.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.62/Beacon-1.0.62.zip" length="24251619" type="application/octet-stream" sparkle:edSignature="xIzTrgUy2WWLOyGkhrO2WgeLqlTIHYlrPlWb9Btp8WYUzwlz6sDley26VxImqyYcmcWAwAc/Pk5DS1JObQiMCw=="/>
+        </item>
+        <item>
             <title>1.0.61</title>
             <pubDate>Fri, 23 Oct 2026 15:14:37 -0400</pubDate>
             <sparkle:version>62</sparkle:version>
@@ -140,19 +154,6 @@
 - Client names, emoji, and colours, and project names, now sync between your Macs. The first time a Mac syncs, its own clients and projects are kept.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.53/Beacon-1.0.53.zip" length="23876293" type="application/octet-stream" sparkle:edSignature="XNKqPH8Oy2twrA7KwkOtsZ2MyrRVDikccaHKUC4mXVdZeEAxdjjKz0/YE5qib8wToatqiw6E28Fujrz3cFACAw=="/>
-        </item>
-        <item>
-            <title>1.0.52</title>
-            <pubDate>Fri, 16 Oct 2026 15:23:45 -0400</pubDate>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>1.0.52</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Two-Mac daily review: simultaneous work for different clients or projects on different Macs is kept as separate parallel work. Only the same work seen from both Macs (for example, driving a Mac mini thread from T3 Code or Screen Sharing on the MacBook) is counted once.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.52/Beacon-1.0.52.zip" length="23714359" type="application/octet-stream" sparkle:edSignature="xHPz3Dnoak8k32G+fOQ+apxyd24sLy48YN9dJW3XhgErmgAQvwx6yXv4VFVrslwYYfbZLQKJM4yRZEb4gI1XDg=="/>
         </item>
     </channel>
 </rss>
