@@ -3,6 +3,20 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.67</title>
+            <pubDate>Wed, 28 Oct 2026 23:33:11 -0400</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.0.67</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Merging proposals in the Report now asks how to count the time between them when there's a gap: only the worked time, or the whole span from the first start to the last end.
+- AI prompt lead-in: the daily review starts work that begins with a Codex or T3 Code conversation 5 minutes earlier, for writing the first prompt. It never overlaps earlier work. Turn it off or change the minutes in Settings → General → Billing defaults.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.67/Beacon-1.0.67.zip" length="24439836" type="application/octet-stream" sparkle:edSignature="pAJDfxzdIi1r7uA91LoUXnm8AjIhl/fy9r8l6nMdTKHiqbh2+o/yUqV80PgdUFHU8dcGms/Zu9rPHrwejlUfBg=="/>
+        </item>
+        <item>
             <title>1.0.66</title>
             <pubDate>Tue, 27 Oct 2026 23:39:45 -0400</pubDate>
             <sparkle:version>67</sparkle:version>
@@ -134,21 +148,6 @@
 - A Mac now re-sends a day that had a capture problem once the problem is fixed.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.58/Beacon-1.0.58.zip" length="23988407" type="application/octet-stream" sparkle:edSignature="JYVWudtEwYcpQ+cV4iQvOOAjNmmgpi9+GXa+D9Rlbi6OcHKdJHLecGOv3CWNNemIgEoWKK4WkjXncL7u3txuBQ=="/>
-        </item>
-        <item>
-            <title>1.0.57</title>
-            <pubDate>Wed, 21 Oct 2026 16:10:06 -0400</pubDate>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>1.0.57</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- A Mac that doesn’t use Arc no longer stops your other Mac from analyzing a day.
-- Beacon now reads Vivaldi and Safari history, as well as Arc, to fill gaps in your browsing time. Visits synced from your iPhone count too.
-- A browser history problem shows as a warning on the day instead of blocking the review.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.57/Beacon-1.0.57.zip" length="23987755" type="application/octet-stream" sparkle:edSignature="h7GFrm5A2wQjzZq+sIa77GlqDQpjRbRbHgcl3R5KovUBYX86HNjy677/Ujf3p+TEJCMS/0zgVIqT7GoTls7iBA=="/>
         </item>
     </channel>
 </rss>
