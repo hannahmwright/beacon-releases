@@ -3,6 +3,19 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.68</title>
+            <pubDate>Fri, 30 Oct 2026 17:29:31 -0400</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>1.0.68</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Recommendations you approve or exclude on your iPhone, and time logs you change there, now show up on your Mac within seconds, even with Beacon's window left open. Before, the Mac only caught up when you switched back to it or edited something.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.68/Beacon-1.0.68.zip" length="24453349" type="application/octet-stream" sparkle:edSignature="1TYNWEi+XZSt1U4CU0db9B1m4z9ZRcH5mJCnOrtnNO1aeccBhg4F/5Y71BRax5ifYtJ7bC0WYiu/ifJsHsv9CA=="/>
+        </item>
+        <item>
             <title>1.0.67</title>
             <pubDate>Wed, 28 Oct 2026 23:33:11 -0400</pubDate>
             <sparkle:version>68</sparkle:version>
@@ -134,20 +147,6 @@
 - A brief network interruption no longer signs Beacon out.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.59/Beacon-1.0.59.zip" length="24120341" type="application/octet-stream" sparkle:edSignature="lVIBpcaLILnYdMSnacjPhQSv7hzN70YT3RFm/6p7v+cIjo2qxURnBcxKDwPjhi1IsUZ/FNpDTYdSLjQxrYxEAQ=="/>
-        </item>
-        <item>
-            <title>1.0.58</title>
-            <pubDate>Wed, 21 Oct 2026 16:21:20 -0400</pubDate>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>1.0.58</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Days your other Mac sent before 1.0.57 with an “Arc history” problem can now be analyzed. Browser history never blocks a review.
-- A Mac now re-sends a day that had a capture problem once the problem is fixed.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.58/Beacon-1.0.58.zip" length="23988407" type="application/octet-stream" sparkle:edSignature="JYVWudtEwYcpQ+cV4iQvOOAjNmmgpi9+GXa+D9Rlbi6OcHKdJHLecGOv3CWNNemIgEoWKK4WkjXncL7u3txuBQ=="/>
         </item>
     </channel>
 </rss>
