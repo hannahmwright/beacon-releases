@@ -3,6 +3,21 @@
     <channel>
         <title>Beacon</title>
         <item>
+            <title>1.0.69</title>
+            <pubDate>Fri, 20 Nov 2026 19:50:06 -0500</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>1.0.69</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## What’s new
+
+- Payables now open as a tabbed record: **Details**, **Emails**, and **Notes**.
+- The new **Emails** tab lists every payment statement emailed for the payable, including the payee's statement and the company copy, with who it went to, when, and whether it was delivered. Click an email to see exactly what it said.
+- Fixed payable pages running off the right edge of the window, which hid the Payee contact and Payment statement buttons and the Status column. Other headers with the same layout are fixed too.
+]]></description>
+            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.69/Beacon-1.0.69.zip" length="24500025" type="application/octet-stream" sparkle:edSignature="YrngTH4ce8y89+3o+eoM7HbMCWGna7mYrZjPhH/7i7tqUnTDTcNogJ6XMhHqMqOyNkb2oLFYYFEXrtMdWGQ/Cw=="/>
+        </item>
+        <item>
             <title>1.0.68</title>
             <pubDate>Fri, 30 Oct 2026 17:29:31 -0400</pubDate>
             <sparkle:version>69</sparkle:version>
@@ -132,21 +147,6 @@
 - Beacon reads T3 Code threads again. A T3 Code update in mid-October had hidden them from daily reviews.
 ]]></description>
             <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.60/Beacon-1.0.60.zip" length="24239174" type="application/octet-stream" sparkle:edSignature="Qm8fYLt/Q0IP0tWX5nsBnvRCfn7MtHHJNxL0Hn47DlcodlSZkvyZIolsJI2Qy2N41HRuypMVzmeh8zVeClSOBw=="/>
-        </item>
-        <item>
-            <title>1.0.59</title>
-            <pubDate>Thu, 22 Oct 2026 10:11:56 -0400</pubDate>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>1.0.59</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## What’s new
-
-- Notes on invoices, payables, and companies: each note shows who added it and when, newest first. Notes are searchable, and you can choose who gets an email about a new note.
-- Names of other records are now links. Clients, people, projects, invoices, and payables mentioned on a record open that record, including invoice line items, related payables, a payable’s “What for,” and matches in Banking.
-- A brief network interruption no longer signs Beacon out.
-]]></description>
-            <enclosure url="https://github.com/hannahmwright/beacon-releases/releases/download/v1.0.59/Beacon-1.0.59.zip" length="24120341" type="application/octet-stream" sparkle:edSignature="lVIBpcaLILnYdMSnacjPhQSv7hzN70YT3RFm/6p7v+cIjo2qxURnBcxKDwPjhi1IsUZ/FNpDTYdSLjQxrYxEAQ=="/>
         </item>
     </channel>
 </rss>
